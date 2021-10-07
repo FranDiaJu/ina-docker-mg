@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: 'Ejecutar la acción del Docker'
         id: hola
-        uses: frandiaju/ina-docker-mg@v1
+        uses: FranDiaJu/ina-docker-mg/action@master
         with:
           quien: 'Lucho'
       - name:  'Mostrar la hora obtenida'
